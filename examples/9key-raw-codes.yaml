@@ -1,0 +1,25 @@
+key_count: 9
+layer:
+  name: Raw Codes
+  keys:
+    1:
+      name: Play/Pause Raw
+      raw: 179
+    2:
+      name: Volume Up Raw
+      raw: 175
+    3:
+      name: Launch Mail Raw
+      raw: 180
+    4:
+      name: Browser Home Raw
+      raw: 172
+    5:
+      name: Context Menu Raw
+      raw: 93
+    6:
+      name: F13 Raw Experiment
+      raw: 124
+    7: empty
+    8: none
+    9: 0

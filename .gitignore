@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Reverse-engineered vendor application artifacts
+app-64/
+app-asar-extracted/
+electron-runner/
+
+# Local reverse-engineering workspace files
+vaydeer.rep/
+vaydeer.gpr
+vaydeer.lock
+vaydeer.lock~
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

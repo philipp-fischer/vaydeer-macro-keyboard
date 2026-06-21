@@ -1,0 +1,13 @@
+key_count: 9
+layer:
+  name: Basic
+  keys:
+    1: A
+    2: B
+    3: C
+    4: F1
+    5: F2
+    6: F3
+    7: ENTER
+    8: ESC
+    9: SPACE

@@ -1,0 +1,13 @@
+key_count: 9
+layer:
+  name: Media
+  keys:
+    1: MEDIA_PLAY_PAUSE
+    2: MEDIA_PREVIOUS_TRACK
+    3: MEDIA_NEXT_TRACK
+    4: VOLUME_MUTE
+    5: VOLUME_DOWN
+    6: VOLUME_UP
+    7: BROWSER_BACK
+    8: BROWSER_FORWARD
+    9: APP_MENU

@@ -1,0 +1,31 @@
+key_count: 9
+layer:
+  name: Shortcuts
+  keys:
+    1:
+      name: Copy
+      keys: CTRL+C
+    2:
+      name: Paste
+      keys: CTRL+V
+    3:
+      name: Cut
+      keys: CTRL+X
+    4:
+      name: Undo
+      keys: CTRL+Z
+    5:
+      name: Redo
+      keys: CTRL+Y
+    6:
+      name: Save
+      keys: CTRL+S
+    7:
+      name: Task Switch
+      keys: ALT+TAB
+    8:
+      name: Lock
+      keys: WIN+L
+    9:
+      name: Show Desktop
+      keys: WIN+D
