@@ -10,8 +10,7 @@
 * Native keyboard/media/mouse-style actions run on the keypad itself, so no background service is needed for normal use
 
 This repository also documents the vendor protocol and firmware format. It includes
-a firmware patch workflow for enabling native `F13`-`F24` keys, which the stock
-9-key firmware does not expose.
+a firmware patch workflow for enabling native `F13`-`F24` keys, which the stock firmware does not expose.
 
 Further details:
 
@@ -119,7 +118,7 @@ uv run vaydeer-flash flash-firmware --yes firmware/drBoard-custom-UG-v1_1_2-f13-
 Then flash a config that uses the new keys:
 
 ```powershell
-uv run vaydeer-flash flash 9key-f1-f3-f13-f18.yaml
+uv run vaydeer-flash flash examples/9key-f13-f21.yaml
 ```
 
 See [`FIRMWARE.md`](FIRMWARE.md) for the firmware patch mechanics.
@@ -151,12 +150,3 @@ Open a small focused-window key tester:
 ```powershell
 uv run vaydeer-key-test
 ```
-
-For a window without a console, use the virtual environment's `pythonw.exe`:
-
-```powershell
-.\.venv\Scripts\pythonw.exe -m vaydeer_keypad.key_tester
-```
-
-The tester shows Tk key symbols, key codes, character data, and modifier state for
-each press/release while the tester window is focused.
